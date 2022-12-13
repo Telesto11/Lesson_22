@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_22</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="mentory">
+					Тільки не треба чіплятись до БЕМ, Класам, CSS. Там лячно :))
+				</div>
+				<div class="domashka">
+
+					<div class="syntax">
+						<h1> Домашка JS (Основи синтаксиса)</h1>
+						<h2>Синтаксис</h2>
+						<p>Всі ці рішеня та опис є у <span>Console та JS</span>!!!</p>
+					</div>
+					<div class="variant-1">
+						<h3>//Варіант №1</h3>
+						<p>Усе вірно!</p>
+						<p>Але бажано додати ";"</p>
+						<p>console.log('Вчимо Js')</p>
+					</div>
+
+					<div class="variant-2">
+						<h3>//Варіант №2</h3>
+						<p>Усе вірно!</p>
+						<p>Але бажано додати ( ; ), тому що так би мовити при обробці, стисканні у один рядок, виникне помилка
+						</p>
+						<p>console.log('JS')</p>
+						<p>console.log('Вчимо')</p>
+					</div>
+
+					<div class="variant-3">
+						<h3>//Варіант №3</h3>
+						<p>Не вірно!</p>
+						<p>Та помилка яка була описанна у Варіанті №2, коли записані у один рядок без ( ; )</p>
+						<p>Помилку виправив у JS, Console!</p>
+						<p>console.log('Вчимо')<mark> </mark> console.log('Js');</p>
+					</div>
+
+					<div class="variant-4">
+						<h3>//Варіант №4</h3>
+						<p>Не вірно!</p>
+						<p>Тому що у першого console.log Вчимо; не були закриті лапки <span>'</span></p>
+						<p>Помилку виправив у JS, Console!</p>
+						<p>console.log('Вчимо<mark> </mark>);</p>
+						<p>console.log('JS');</p>
+					</div>
+					<div class="constanta">
+						<h2>ЗМІННІ ТА КОНСТАНТИ</h2>
+
+						<div class="zavdannya-1">
+							<h2>Завдання 1)</h2>
+							<p>let eyeColorStorage = 'Зберігання кольору очей користувача сайту';</p>
+							<p>
+								console.log(eyeColorStorage);
+
+							</p>
+						</div>
+						<div class="zavdannya-2">
+							<h2>Завдання 2)</h2>
+
+							<p>let user;</p>
+
+							<p>
+								let userName = 'Вася';
+
+							</p>
+							<p>
+								user = userName;
+
+							</p>
+							<p>console.log(user);</p>
+						</div>
+						<div class="zavdannya-3">
+							<h2>Завдання 3)</h2>
+							<h3>Варіант №1. Не вірно</h3>
+							<p>У самій змінній знаходиться ще одна.</p>
+							<p>А також після Васі немає коми, та в кінці бажано ставити крапку з комою. ;)</p>
+							<h3>Варіант №2. Будемо вважати що не вірно</h3>
+							<p>myage записано не по стилю lowerCamelCase</p>
+							<p>
+								Та якщо тут потрібно було вивести у консоль, то не записали у console.log
+
+							</p>
+							<h3>Варіант №3. Не вірно</h3>
+							<p>
+								Це не заздалегідь відоме значення. Тут має бути у стилі lowerCamelCase
+							</p>
+							<h3>
+								Варіант №4. Вірно
+
+							</h3>
+
+							<p>
+								Якщо це не підкол, то все вірно :)
+
+							</p>
+							<p><span>Чи потрібно тут дописати до 100 якесь значення, не зважаючи що записано як Height . Щось
+									типу
+									метрів, сантиметрів???</span></p>
+
+
+							<h3>Варіант №5. Вірно</h3>
+							<p>
+								З таким блоком (var) буде працювати
+
+							</p>
+						</div>
+					</div>
+					<div class="data-types">
+						<h2>ТИПИ ДАНИХ</h2>
+						<h3>
+							Варіант №1 Не вірно.
+
+						</h3>
+						<p>Помилка у лапках. Для її вирішення потрібні зворотні лапки (` `).</p>
+						<p>let userAge = 36;</p>
+						<p>let userInfo = "Фрилансер ${userAge}"</p>
+
+						<h3>Варіант №2. Не вірно.</h3>
+						<p>Тут виходить нескінченність</p>
+						<p>let userHeight = 145 / 0;</p>
+						<p>console.log(userHeight);</p>
+						<p>console.log(typeof userHeight);</p>
+
+						<h3>Варіант №3. Не вірно</h3>
+						<p>У цій задачі виходить Невизначеність. undefined</p>
+
+
+						<p>Варіант №4. Вірно</p>
+						<p>Виходить number, так як було потрібно</p>
+						<p>let userSize = "45" / "8";</p>
+						<p>console.log(typeof userSize);</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
